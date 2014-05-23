@@ -1,0 +1,39 @@
+    <!-- Top sectional header of the page, containing name and menu -->
+  <div class="sectionalThird" id="top">
+    <h1 id="name">
+      <span class="underline">Austin Hesterl</span>y
+    </h1>
+    <h3>
+      <ul class="menu">
+
+        <li ui-sref="about">About</li>  
+        <li ui-sref="education">Education</li>     
+        <li ui-sref="interests">Interests</li>
+      </ul>
+    </h3>
+  </div>
+
+    <!-- Middle section of the page, containing picture, info section, and quote divs -->
+  <div class="sectionalThird" id="middle">
+    <img id="image" src="https://lh5.googleusercontent.com/-sWQ9beQ-UQ8/UyDc8fC99oI/AAAAAAAAAFE/y_9fvTZxSQc/s628-no/IMG_5822_br+%25284%2529.jpg">
+
+    <!-- Info and quote sections provided by ui-router -->
+    <div ui-view>
+      {{abouter}}
+    </div>
+
+  </div>
+
+    <!-- Footer section of the page, containing social media links -->
+  <div class="sectionalThird" id="bottom">
+
+        <a class="icon" href="https://www.facebook.com/austin.hesterly"><img src="http://a5.mzstatic.com/us/r30/Purple/v4/f7/25/73/f725731b-6ddf-c2a2-32a6-3029c3e7225a/mzl.uyyqawdj.png"/>
+        </a>
+        <a class="icon" href="http://www.linkedin.com/pub/austin-hesterly/41/35b/40b"><img src="http://dimitrihalleycenter.com/wp-content/uploads/2013/09/linkedin-icon-1024x1024.png"/>
+        </a>
+        <a class="icon right" href="https://twitter.com/Austerly"><img src="http://png-5.findicons.com/files/icons/816/icons_web_2_0/256/twitter.png"/>
+        </a>
+        <a class="icon right" href="https://github.com/Austerly"><img src="http://png-2.findicons.com/files/icons/2779/simple_icons/1024/github.png"/>
+        </a> 
+
+  </div>
